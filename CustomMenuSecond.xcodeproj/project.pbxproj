@@ -14,6 +14,8 @@
 		B167F73320EB696000C22B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B167F73120EB696000C22B7D /* LaunchScreen.storyboard */; };
 		B167F73E20EB696100C22B7D /* CustomMenuSecondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167F73D20EB696100C22B7D /* CustomMenuSecondTests.swift */; };
 		B167F74920EB696100C22B7D /* CustomMenuSecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167F74820EB696100C22B7D /* CustomMenuSecondUITests.swift */; };
+		B167F75720EB723900C22B7D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167F75620EB723900C22B7D /* MenuViewController.swift */; };
+		B167F75920EB725100C22B7D /* MenuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167F75820EB725100C22B7D /* MenuCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B167F74420EB696100C22B7D /* CustomMenuSecondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMenuSecondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B167F74820EB696100C22B7D /* CustomMenuSecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuSecondUITests.swift; sourceTree = "<group>"; };
 		B167F74A20EB696100C22B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B167F75620EB723900C22B7D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B167F75820EB725100C22B7D /* MenuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B167F72F20EB696000C22B7D /* Assets.xcassets */,
 				B167F73120EB696000C22B7D /* LaunchScreen.storyboard */,
 				B167F73420EB696000C22B7D /* Info.plist */,
+				B167F75620EB723900C22B7D /* MenuViewController.swift */,
+				B167F75820EB725100C22B7D /* MenuCellView.swift */,
 			);
 			path = CustomMenuSecond;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B167F72B20EB696000C22B7D /* ViewController.swift in Sources */,
+				B167F75920EB725100C22B7D /* MenuCellView.swift in Sources */,
+				B167F75720EB723900C22B7D /* MenuViewController.swift in Sources */,
 				B167F72920EB696000C22B7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
